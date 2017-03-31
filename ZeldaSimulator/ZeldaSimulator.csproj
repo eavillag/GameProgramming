@@ -43,14 +43,32 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Classes\Entity.cs" />
+    <Compile Include="Classes\Archive.cs" />
+    <Compile Include="Classes\Coordinate.cs" />
+    <Compile Include="Classes\Drawer.cs" />
+    <Compile Include="Classes\Entities\Avatar.cs" />
+    <Compile Include="Classes\Cell.cs" />
+    <Compile Include="Classes\Entities\Entity.cs" />
+    <Compile Include="Classes\Entities\Health.cs" />
+    <Compile Include="Classes\Game.cs" />
+    <Compile Include="Classes\Items\Armor.cs" />
+    <Compile Include="Classes\Items\Item.cs" />
+    <Compile Include="Classes\Items\Potion.cs" />
+    <Compile Include="Classes\Items\Weapon.cs" />
     <Compile Include="Classes\Map.cs" />
+    <Compile Include="Classes\Entities\Monster.cs" />
     <Compile Include="Classes\Sack.cs" />
+    <Compile Include="Classes\Entities\Skills.cs" />
+    <Compile Include="Controllers\ControllerMap.cs" />
+    <Compile Include="Controllers\ControllerMonster.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Interfaces\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

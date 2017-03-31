@@ -10,6 +10,7 @@ namespace ZeldaSimulator
     {
         static void Main(string[] args)
         {
+            System.Console.WriteLine("T");
         }
     }
 }

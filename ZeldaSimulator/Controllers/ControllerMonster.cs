@@ -4,9 +4,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace ZeldaSimulator.Classes
+namespace ZeldaSimulator.Controllers
 {
-    class Entity
+    class ControllerMonster
     {
     }
 }
