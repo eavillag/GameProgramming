@@ -8,12 +8,14 @@ namespace ZeldaSimulator.Classes.Entities
 {
     class Skills
     {
-        int skl_min_damage;
-        int skl_max_damage;
-        int skl_min__base_damage;
-        int skl_max__base_damage;
-        int skl_min_defense;
-        int skl_min_base_defense;
+        private int skl_min_damage;
+        private int skl_max_damage;
+        private int skl_min__base_damage;
+        private int skl_max__base_damage;
+        private int skl_min_defense;
+        private int skl_min_base_defense;
+        private double skl_attack_strike;
+        private double skl_evade;
 
         public int Skl_min_damage{
             get{
@@ -72,6 +74,26 @@ namespace ZeldaSimulator.Classes.Entities
 
             set{
                 skl_min_base_defense = value;
+            }
+        }
+
+        public double Skl_attack_strike{
+            get{
+                return skl_attack_strike;
+            }
+
+            set{
+                skl_attack_strike = value;
+            }
+        }
+
+        public double Skl_evade{
+            get{
+                return skl_evade;
+            }
+
+            set{
+                skl_evade = value;
             }
         }
     }

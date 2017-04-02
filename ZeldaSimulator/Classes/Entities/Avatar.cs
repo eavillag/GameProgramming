@@ -6,8 +6,18 @@ using System.Threading.Tasks;
 
 namespace ZeldaSimulator.Classes.Entities
 {
-    class Avatar : Entity
+    class Avatar : Entity 
     {
+        public Avatar():base(){
 
+        }
+        
+        public override void ent_move(){
+
+        }
+
+        public override void ent_attack(){
+            
+        }
     }
 }

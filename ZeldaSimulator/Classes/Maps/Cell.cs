@@ -4,9 +4,11 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace ZeldaSimulator.Classes
+namespace ZeldaSimulator.Classes.Gaming
 {
-    class Map
+    class Cell
     {
+        private int cell_type_int;
+        private char cell_type_char;
     }
 }

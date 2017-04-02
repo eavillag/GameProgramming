@@ -8,6 +8,10 @@ namespace ZeldaSimulator.Classes.Items
 {
     class Potion : Item
     {
-        int potion_health_points;
+        private int potion_health_points;
+
+        public Potion() : base() {
+
+        }
     }
 }

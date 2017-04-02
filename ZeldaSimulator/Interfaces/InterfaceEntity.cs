@@ -4,9 +4,12 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace ZeldaSimulator.Controllers
+namespace ZeldaSimulator.Interfaces
 {
-    class ControllerMonster
+    interface InterfaceEntity
     {
+        void ent_Move();
+        void ent_Attack();
+
     }
 }

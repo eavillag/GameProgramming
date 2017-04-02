@@ -6,9 +6,13 @@ using System.Threading.Tasks;
 
 namespace ZeldaSimulator.Classes.Items
 {
-    class Armor : Item
-    {
-        String armor_namel;
-        int armor_defense;
+    class Armor : Item{
+         
+        private string armor_namel;
+        private int armor_defense;
+
+        public Armor() : base() {
+
+        }
     }
 }

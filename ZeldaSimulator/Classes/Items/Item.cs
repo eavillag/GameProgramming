@@ -6,11 +6,18 @@ using System.Threading.Tasks;
 
 namespace ZeldaSimulator.Classes.Items
 {
-    class Item
+    abstract class Item
     {
-        String item_name;
-        int item_level;
-        int item_state;
-        int item_type;
+        private int item_id;
+        private string item_name;
+        private int item_level;
+        private int item_state;
+        private int item_type;
+
+       
+
+        public Item() {
+
+        }
     }
 }

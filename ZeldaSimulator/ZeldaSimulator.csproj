@@ -47,29 +47,30 @@
     <Compile Include="Classes\Coordinate.cs" />
     <Compile Include="Classes\Drawer.cs" />
     <Compile Include="Classes\Entities\Avatar.cs" />
-    <Compile Include="Classes\Cell.cs" />
+    <Compile Include="Classes\Maps\Cell.cs" />
     <Compile Include="Classes\Entities\Entity.cs" />
     <Compile Include="Classes\Entities\Health.cs" />
-    <Compile Include="Classes\Game.cs" />
+    <Compile Include="Classes\Entities\Level.cs" />
+    <Compile Include="Classes\Gaming\Game.cs" />
     <Compile Include="Classes\Items\Armor.cs" />
     <Compile Include="Classes\Items\Item.cs" />
     <Compile Include="Classes\Items\Potion.cs" />
     <Compile Include="Classes\Items\Weapon.cs" />
-    <Compile Include="Classes\Map.cs" />
+    <Compile Include="Classes\Maps\Map.cs" />
     <Compile Include="Classes\Entities\Monster.cs" />
     <Compile Include="Classes\Sack.cs" />
     <Compile Include="Classes\Entities\Skills.cs" />
-    <Compile Include="Controllers\ControllerMap.cs" />
-    <Compile Include="Controllers\ControllerMonster.cs" />
+    <Compile Include="Classes\Gaming\Session.cs" />
+    <Compile Include="Classes\Gaming\SessionLevel.cs" />
+    <Compile Include="Controllers\ControllerGame.cs" />
+    <Compile Include="Interfaces\InterfaceEntity.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="Interfaces\" />
-  </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.

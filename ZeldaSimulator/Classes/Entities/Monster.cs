@@ -6,7 +6,18 @@ using System.Threading.Tasks;
 
 namespace ZeldaSimulator.Classes.Entities
 {
-    class Monster
+    class Monster : Entity
     {
+        public Monster() :base() {
+
+        }
+
+        public override void ent_move(){
+
+        }
+
+        public override void ent_attack(){
+
+        }
     }
 }

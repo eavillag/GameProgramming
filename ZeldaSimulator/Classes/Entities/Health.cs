@@ -8,9 +8,10 @@ namespace ZeldaSimulator.Classes.Entities
 {
     class Health
     {
-        int hlth_max;
-        int hlth_current;
-        int hlth_critical;
+        private int hlth_max;
+        private int hlth_initial;
+        private int hlth_current;
+        private int hlth_critical;
 
         public int Hlth_max{
             get{

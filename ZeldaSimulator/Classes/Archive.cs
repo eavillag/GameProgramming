@@ -8,5 +8,12 @@ namespace ZeldaSimulator.Classes
 {
     class Archive
     {
+        public Archive() {
+            
+        }
+
+        public static void archive_load() {
+        }
+
     }
 }
